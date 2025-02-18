@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    public bool Movement;
     public float speed = 5f;
     public float laneDistance = 2.5f;
     private int lane = 1; // 0 = left, 1 = center, 2 = right
